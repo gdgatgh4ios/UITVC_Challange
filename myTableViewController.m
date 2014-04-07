@@ -68,11 +68,11 @@
 //    cell.textLabel.text = [NSString stringwithformat:@"Row %i", indexPath.row];
         if (indexPath.section ==0){
         cell.textLabel.text =   @"I am in Section 0";
-        cell.backgroundColor = [UIColor redColor];
+        cell.backgroundColor = [UIColor greenColor];
     }
     else if (indexPath.section ==1){
         cell.textLabel.text =   @"Another Section";
-        cell.backgroundColor = [UIColor greenColor];
+        cell.backgroundColor = [UIColor redColor];
     }
     else {
         cell.textLabel.text = [NSString stringWithFormat:@"Row %i", indexPath.row];
