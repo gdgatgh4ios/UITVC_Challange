@@ -1,5 +1,5 @@
 //
-//  DGViewController.h
+//  myTableViewController.h
 //  UITVC_Challange
 //
 //  Created by dan on 4/6/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DGViewController : UIViewController
+@interface myTableViewController : UITableViewController
 
 @end
